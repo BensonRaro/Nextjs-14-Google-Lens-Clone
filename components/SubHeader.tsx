@@ -21,7 +21,7 @@ const SubHeader = () => {
         <HeaderOption Icon={RiBookMarkLine} text="Books" />
         <HeaderOption Icon={IoMdMore} text="More" />
       </div>
-      <div className="flex gap-1">
+      <div className="md:flex gap-1 hidden">
         SafeSearch
         <IoMdArrowDropdown className="h-6 w-6" />
       </div>
