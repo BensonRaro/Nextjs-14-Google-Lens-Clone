@@ -32,7 +32,7 @@ const HeaderOption = ({ Icon, text }: HeaderOptionProps) => {
       }`}
       onClick={Select}
     >
-      <Icon className="h-6 w-6 hidden md:block" />
+      <Icon className="h-6 w-6" />
       <p className="mr-1">{text}</p>
     </div>
   );

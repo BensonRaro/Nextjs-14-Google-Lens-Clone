@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Build and Deploy Google + Lens Clone: Next.js 14, React, Uploadthing, RapidApi,Tailwind
 
-## Getting Started
+![Google + Lens Clone Thumbnail (3)](https://i9.ytimg.com/vi/FJqUhxlTsK4/mqdefault.jpg?v=65f71da9&sqp=CIjL3a8G&rs=AOn4CLBMio03wFQ6drcjZWgSpWv0D0M7-Q)
 
-First, run the development server:
+This is a repository for Build and Deploy Google + Lens Clone: Next.js 14, React, Uploadthing, RapidApi,Tailwind
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[VIDEO TUTORIAL](https://youtu.be/FJqUhxlTsK4)
+
+Key Features:
+
+- 🔍 Google search (All Section).
+- 🖼️ Images search.
+- 🎥 Videos search.
+- 📰 News Search.
+- 📤 Images upload using uploadthing.
+- 🌏 Search image using Google Lens Api.
+- 📤🔗Search image by uploading images and retrieving image url.
+- 🔗 Search image using your own image url.
+- </> Display description using HTML-React-Parser.
+- ⏯️ Play vidoes using React-Player.
+- 🔮 Web theme using Next-themes
+- 🎨 Beautiful design.
+- ⚡ Blazing fast application.
+- 📄 SSR (Server-Side Rendering).
+- 🗺️ Grouped routes & layouts.
+- 🚀 Deployment.
+
+### Prerequisites
+
+**Node version 18.17 or later**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/BensonRaro/Nextjs-14-Google-Lens-Clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install packages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Setup .env file
 
-## Learn More
+```js
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Start the app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```shell
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Available commands
 
-## Deploy on Vercel
+Running commands with npm `npm run [command]`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| command | description                              |
+| :------ | :--------------------------------------- |
+| `dev`   | Starts a development instance of the app |
