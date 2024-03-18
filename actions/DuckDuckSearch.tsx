@@ -15,7 +15,7 @@ export const DuckDuckSearch = async (
       region: "wt-wt",
     },
     headers: {
-      "X-RapidAPI-Key": "b2c40c440dmsh1dfac47e352171ep11959djsn98863fd540a2",
+      "X-RapidAPI-Key": process.env.DuckDuckKey,
       "X-RapidAPI-Host": "duckduckgo10.p.rapidapi.com",
     },
   };

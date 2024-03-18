@@ -35,6 +35,28 @@ Key Features:
 git clone https://github.com/BensonRaro/Nextjs-14-Google-Lens-Clone
 ```
 
+### Fill in API keys
+
+**DuckDuck**
+
+```js
+ headers: {
+     // you api key here
+     "X-RapidAPI-Key": "",
+     "X-RapidAPI-Host": "duckduckgo10.p.rapidapi.com",
+   }
+```
+
+**Google Lens API**
+
+```js
+  headers: {
+      // fill in API key her
+      "X-RapidAPI-Key": "",
+      "X-RapidAPI-Host": "google-lens-image-search1.p.rapidapi.com",
+    }
+```
+
 ### Install packages
 
 ```shell
@@ -46,6 +68,10 @@ npm i
 ```js
 UPLOADTHING_SECRET=
 UPLOADTHING_APP_ID=
+
+// or fill in Rapid api keys here
+GogleLensKey=
+DuckDuckKey=
 ```
 
 ### Start the app
