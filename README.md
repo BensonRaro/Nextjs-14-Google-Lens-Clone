@@ -1,6 +1,6 @@
 # Build and Deploy Google + Lens Clone: Next.js 14, React, Uploadthing, RapidApi,Tailwind
 
-![Google + Lens Clone Thumbnail (3)](https://i9.ytimg.com/vi/FJqUhxlTsK4/mqdefault.jpg?v=65f71da9&sqp=CIjL3a8G&rs=AOn4CLBMio03wFQ6drcjZWgSpWv0D0M7-Q)
+![Google + Lens Clone Thumbnail (3)](https://github.com/BensonRaro/Nextjs-14-Google-Lens-Clone/blob/main/public/GoogleClone.jpg?raw=true)
 
 This is a repository for Build and Deploy Google + Lens Clone: Next.js 14, React, Uploadthing, RapidApi,Tailwind
 
